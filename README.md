@@ -1,46 +1,24 @@
-# EDA_Patricia_Diez
-# Análisis Exploratorio de Datos (EDA): Teletrabajo y Salud Mental  
+#  ML Customer Clustering  
 
-## **Descripción del proyecto**  
-Este proyecto tiene como objetivo analizar si el **teletrabajo** afecta la **salud mental** de los empleados, comparándolo con otros modelos laborales como el trabajo presencial e híbrido. Utilizando datos relacionados con el estrés, la calidad del sueño, la productividad y otros factores, hemos realizado un análisis exploratorio para identificar patrones y relaciones relevantes.  
+Este proyecto tiene como objetivo segmentar clientes mediante **técnicas de Machine Learning** para mejorar estrategias de marketing.  
 
----
+## 📌 Dataset  
+- **Nombre**: Wholesale Customers Data  
+- **Fuente**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wholesale+customers)  
+- **Descripción**: Contiene información sobre clientes de un mayorista y sus patrones de compra en distintas categorías de productos.  
 
-## **Objetivo principal**  
-Responder a la pregunta:  
-> ¿El lugar donde trabajamos (remoto, presencial o híbrido) afecta a la salud mental de los empleados?
+## 📂 Estructura del repositorio  
+📁 `src/data_sample/` → Muestra del dataset  
+📁 `src/img/` → Gráficos y visualizaciones  
+📁 `src/notebooks/` → Notebooks de prueba  
+📁 `src/results_notebook/` → Notebook final con el modelo  
+📁 `src/models/` → Modelos guardados  
+📁 `src/utils/` → Funciones auxiliares  
 
----
-
-## **Contenido del análisis**  
-
-1. **Introducción**  
-   - Contextualización del problema.  
-   - Importancia de la salud mental en el entorno laboral.  
-
-2. **Hipótesis inicial**  
-   - Se plantea la posibilidad de que el teletrabajo pueda influir en la salud mental de los empleados, en comparación con otros modelos de trabajo.  
-
-3. **Exploración de datos**  
-   - Análisis de variables clave como:  
-      - Niveles de estrés.  
-      - Calidad del sueño.  
-      - Productividad.  
-      - Acceso a recursos de salud mental.  
-   - Relación entre estas variables y el modelo de trabajo.  
-
-4. **Resultados clave**  
-   - No se encontraron diferencias significativas en la salud mental entre modelos laborales.  
-   - Otros factores (como calidad del sueño o años de experiencia) parecen tener mayor impacto.  
-
-5. **Conclusiones**  
-   - Reflexiones finales y posibles líneas de investigación futuras.  
-
----
-
- **Herramientas utilizadas**  
-- **Python**: Para el análisis de datos.  
-   - **Bibliotecas**: Pandas, Matplotlib, Seaborn, Numpy.  
-- **Jupyter Notebook**: Entorno de trabajo para ejecutar el análisis.  
-- **Presentación**: Herramientas de visualización y comunicación (Canva).  
+## 🚀 Metodología  
+1. **Exploración de los datos (EDA)**  
+2. **Preprocesamiento y normalización**  
+3. **Aplicación de técnicas de clustering**  
+4. **Evaluación de los resultados**  
+5. **Conclusiones y mejoras futuras**  
 
