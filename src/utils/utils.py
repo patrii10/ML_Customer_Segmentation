@@ -25,3 +25,13 @@ def data_report(df):
     concatenado.set_index('COL_N', drop=True, inplace=True)
 
     return concatenado.T
+
+
+def get_features_cat(dataframe):
+    features_cat = (list(dataframe.select_dtypes(include = ['object']).columns))
+    return features_cat
+
+
+def get_features_num(dataframe):
+    features_num = list(dataframe.columns[dataframe.dtypes != "object"])
+    return features_num
