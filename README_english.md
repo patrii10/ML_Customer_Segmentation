@@ -1,4 +1,4 @@
-# ML Customer Clustering (Customer Segmentation)
+# ML_Customer_Clustering 
 
 This project aims to analyze a wholesale customer dataset to identify patterns and segment customers into different groups.
 
@@ -46,6 +46,7 @@ The goal is to identify the key characteristics that group customers together, a
 - **Name**: Wholesale Customers Data  
 - **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wholesale+customers)  
 - **Description**: Contains information about wholesale customers and their purchase patterns in various product categories.
+- **Size**: 440 rows × 8 columns  
 
 ---
 
@@ -72,3 +73,25 @@ The goal is to identify the key characteristics that group customers together, a
 3. **Clustering Techniques Application**  
 4. **Evaluation of Results**  
 5. **Conclusions and Future Improvements**
+6. **Exporting trained models with `joblib**
+
+## ✅ **Summary and Results**
+
+| Algorithm             | Silhouette Score | Notes                                                      |
+|-----------------------|------------------|-------------------------------------------------------------|
+| **KMeans (no PCA)**   | 0.64             | Decent results, but poorer visual separation               |
+| **KMeans (with PCA)** | 0.69             | More stable and better visual distinction                  |
+| **DBSCAN**            | 0.79             | Excellent score, but sensitive to noise/outliers           |
+| **Agglomerative**     | 0.78             | Strong performance and consistent group separation         |
+
+---
+
+## 🧠 **Final Model Selection**
+
+We selected **KMeans with PCA (k=2)** as the final model because of:
+
+- ✅ Simplicity  
+- ✅ Stability across runs  
+- ✅ Visual clarity in cluster separation  
+- ✅ Interpretability of clusters for business use
+
