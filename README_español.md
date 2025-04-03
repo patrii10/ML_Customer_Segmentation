@@ -46,7 +46,7 @@ El objetivo es identificar las características que principales que agrupan a lo
 
 ## 📌 Dataset  
 - **Nombre**: Wholesale Customers Data  
-- **Fuente**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wholesale+customers)  
+- **Fuente**: [Kaggle](https://www.kaggle.com/datasets/binovi/wholesale-customers-data-set/data)  
 - **Descripción**: Contiene información sobre clientes de un mayorista y sus patrones de compra en distintas categorías de productos.  
 - **Tamaño**: 440 filas, 8 columnas.
 ---

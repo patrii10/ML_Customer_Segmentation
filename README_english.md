@@ -79,10 +79,10 @@ The goal is to identify the key characteristics that group customers together, a
 
 | Algorithm             | Silhouette Score | Notes                                                      |
 |-----------------------|------------------|-------------------------------------------------------------|
-| **KMeans (no PCA)**   | 0.64             | Decent results, but poorer visual separation               |
-| **KMeans (with PCA)** | 0.69             | More stable and better visual distinction                  |
-| **DBSCAN**            | 0.79             | Excellent score, but sensitive to noise/outliers           |
-| **Agglomerative**     | 0.78             | Strong performance and consistent group separation         |
+| **KMeans (no PCA)**   | 0.64             | Decent results 
+| **KMeans (with PCA)** | 0.69             | More stable and better results                 |
+| **DBSCAN**            | 0.79             | Excellent score
+| **Agglomerative**     | 0.78             | Very good result         |
 
 ---
 
