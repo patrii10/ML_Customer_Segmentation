@@ -42,9 +42,9 @@ The goal is to identify the key characteristics that group customers together, a
 
 ---
 
-## 📌 Dataset  
+## Dataset  
 - **Name**: Wholesale Customers Data  
-- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wholesale+customers)  
+- **Source**: [Kaggle](https://www.kaggle.com/datasets/binovi/wholesale-customers-data-set/data)  
 - **Description**: Contains information about wholesale customers and their purchase patterns in various product categories.
 - **Size**: 440 rows × 8 columns  
 
@@ -59,7 +59,7 @@ The goal is to identify the key characteristics that group customers together, a
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 📁 `src/data_sample/` → Sample of the dataset  
 📁 `src/img/` → Graphs and visualizations  
 📁 `src/notebooks/` → Test notebooks  
@@ -67,7 +67,7 @@ The goal is to identify the key characteristics that group customers together, a
 📁 `src/models/` → Saved models  
 📁 `src/utils/` → Helper functions  
 
-## 🚀 Methodology  
+## Methodology  
 1. **Data Exploration (EDA)**  
 2. **Preprocessing and Normalization**  
 3. **Clustering Techniques Application**  
@@ -75,7 +75,7 @@ The goal is to identify the key characteristics that group customers together, a
 5. **Conclusions and Future Improvements**
 6. **Exporting trained models with `joblib**
 
-## ✅ **Summary and Results**
+## **Summary and Results**
 
 | Algorithm             | Silhouette Score | Notes                                                      |
 |-----------------------|------------------|-------------------------------------------------------------|
@@ -86,12 +86,12 @@ The goal is to identify the key characteristics that group customers together, a
 
 ---
 
-## 🧠 **Final Model Selection**
+## **Final Model Selection**
 
 We selected **KMeans with PCA (k=2)** as the final model because of:
 
-- ✅ Simplicity  
-- ✅ Stability across runs  
-- ✅ Visual clarity in cluster separation  
-- ✅ Interpretability of clusters for business use
+- Simplicity  
+- Stability across runs  
+- Visual clarity in cluster separation  
+- Interpretability of clusters for business use
 

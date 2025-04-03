@@ -44,7 +44,7 @@ El objetivo es identificar las características que principales que agrupan a lo
 
 ---
 
-## 📌 Dataset  
+## Dataset  
 - **Nombre**: Wholesale Customers Data  
 - **Fuente**: [Kaggle](https://www.kaggle.com/datasets/binovi/wholesale-customers-data-set/data)  
 - **Descripción**: Contiene información sobre clientes de un mayorista y sus patrones de compra en distintas categorías de productos.  
@@ -60,7 +60,7 @@ El objetivo es identificar las características que principales que agrupan a lo
 
 ---
 
-## 📂 Estructura del repositorio  
+## Estructura del repositorio  
 📁 `src/data_sample/` → Muestra del dataset  
 📁 `src/img/` → Gráficos y visualizaciones  
 📁 `src/notebooks/` → Notebooks de prueba  
@@ -68,7 +68,7 @@ El objetivo es identificar las características que principales que agrupan a lo
 📁 `src/models/` → Modelos guardados  
 📁 `src/utils/` → Funciones auxiliares  
 
-## 🚀 Metodología  
+## Metodología  
 1. **Exploración de los datos (EDA)**  
 2. **Preprocesamiento y normalización**  
 3. **Aplicación de técnicas de clustering**  
@@ -78,7 +78,7 @@ El objetivo es identificar las características que principales que agrupan a lo
 
 ---
 
-### ✅ **Resultados principales**
+### **Resultados principales**
 
 - Se aplicaron distintos algoritmos de clustering: `KMeans`, `DBSCAN` y `Agglomerative`.
 - La reducción de dimensionalidad mediante `PCA` permitió mantener el **93% de la varianza** en solo 4 componentes.
@@ -92,10 +92,10 @@ El objetivo es identificar las características que principales que agrupan a lo
 | **Agglomerative**     | 0.78             |
 
 - Finalmente se eligió **KMeans con PCA (k=2)** como modelo óptimo por su equilibrio entre:
-  - ✔️ Simplicidad de implementación  
-  - ✔️ Buena separación visual  
-  - ✔️ Robustez ante nuevos datos  
-  - ✔️ Interpretabilidad para perfiles de clientes
+  - Simplicidad de implementación  
+  - Buena separación visual  
+  - Robustez ante nuevos datos  
+  - Interpretabilidad para perfiles de clientes
 
 ---
 
